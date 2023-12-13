@@ -39,19 +39,19 @@ class CustomStructureDataset(Dataset):
         rand_k = np.random.randint(1, 4)
         if self.transform:
 
-#          if rand_num[0] < 0.5:
-#            structure = np.flip(structure, axis = 1)
-#          if rand_num[1] < 0.5:
-#            structure = np.flip(structure, axis = 2)
-#          if rand_num[2] < 0.5:
-#            structure = np.flip(structure, axis = 3)
-
           if rand_num[0] < 0.5:
-            structure = np.rot90(structure, rand_k, (1,2))
+            structure = np.flip(structure, axis = 1)
           if rand_num[1] < 0.5:
-            structure = np.rot90(structure, 2, (1,3))
+            structure = np.flip(structure, axis = 2)
           if rand_num[2] < 0.5:
-            structure = np.rot90(structure, 2, (2,3))
+            structure = np.flip(structure, axis = 3)
+
+#          if rand_num[0] < 0.5:
+#            structure = np.rot90(structure, rand_k, (1,2))
+#          if rand_num[1] < 0.5:
+#            structure = np.rot90(structure, 2, (1,3))
+#          if rand_num[2] < 0.5:
+#            structure = np.rot90(structure, 2, (2,3))
 
         label = float(self.str_labels.iloc[idx, 2])
         if self.normalize:
