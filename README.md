@@ -13,7 +13,7 @@ To test the model you need:
 3) Run Test_model.ipynb
 
 
-   To train a model you need:
+To train a model you need:
    
 1) unpack the archives with data in the folders Data/Dataset_val Data/Dataset_t1 and Data/Dataset_t2 and download the archive with training data (link in Data) and unpack it into Data/Dataset. To unpack the entire dataset you will need more than 200 GB of memory.
 
