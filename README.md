@@ -8,7 +8,7 @@ An example of processing one complex can be done by running Prepare_sample.ipynb
 
 To test the model you need:
 
-1) download the saved model (the link is written in the Result Model folder) and place it in the Result Model folder.
+1) download the saved model (the link https://disk.yandex.ru/d/kYvSX_sCEshvEA ) and place it in the Result Model folder.
 
 2) unpack archives with test data in the Data/Dataset_t1 and Data/Dataset_t2 folders
 
