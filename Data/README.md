@@ -24,3 +24,6 @@ Data files for validation with labels: Val_data.csv
 Data files for test 1 with labels: test_1.csv
 
 Data files for test 2 with labels: test_2.csv
+
+Tables for Test 1 with selected atoms of all complexes (Cell_tables_10_test_1): https://disk.yandex.ru/d/q895TeEe5fD53w
+Tables for Test 2 with selected atoms of all complexes (Cell_tables_10_test_2): https://disk.yandex.ru/d/WNhiDSwWk2VbVA
